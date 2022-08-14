@@ -12,7 +12,7 @@
   },
   "include": [
     "src"
-  ],
+, "migrations/20220309153045-create-event.js"  ],
   "exclude": [
     "node_modules",
     "dist"

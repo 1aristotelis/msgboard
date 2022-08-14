@@ -45,7 +45,7 @@ process.on('SIGHUP', () => {
 
 nconf.defaults({
   log_level: 'info',
-  host: '0.0.0.0',
+  host: '127.0.0.1',
   port: '5200',
   prometheus_enabled: true,
   http_api_enabled: true,
